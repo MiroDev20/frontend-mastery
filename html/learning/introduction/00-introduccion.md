@@ -1,9 +1,9 @@
-# HTML
+# **HTML** (HyperText Markup Language)
 
-**HTML** (HyperText Markup Language) es un lenguaje de marcado utilizado
-para estructurar documentos que serán interpretados por un navegador web.
-**HTML** permite definir qué representa cada parte del documento mediante
-elementos, los cuales se escriben utilizando etiquetas.
+Es un *lenguaje de marcado* utilizado para estructurar documentos que
+serán analizados ([parsed](https://developer.mozilla.org/es/docs/Glossary/Parse "MDN Parse (análisis sintáctico)")) e interpretados por el navegador para construir
+la página web. Para ello, **HTML** utiliza **elementos**, cuya estructura se
+define mediante **etiquetas**.
 
 Por ejemplo:
 
@@ -11,7 +11,7 @@ Por ejemplo:
 <p>Hola mundo</p>
 ```
 
-En este ejemplo, `<p>` es la etiqueta de apertura, Hola mundo es el contenido,
+En este ejemplo, `<p>` es la etiqueta de apertura, `Hola mundo` es el contenido,
 `</p>` es la etiqueta de cierre y todo el conjunto `<p>Hola mundo</p>`
 constituye un elemento **HTML**.
 
