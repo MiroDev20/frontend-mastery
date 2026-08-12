@@ -372,14 +372,14 @@ Y:
 
 Entonces:
 
-| Concepto | Ejemplo |
-|---|---|
-| Documento | `index.html` |
-| Elemento | `<a href="...">Visitar sitio</a>` |
-| Etiqueta | `<a>` / `</a>` |
-| Atributo | `href` |
-| Valor | `"https://example.com"` |
-| Contenido | `Visitar sitio` |
+| Concepto  | Ejemplo                           |
+|-----------|-----------------------------------|
+| Documento | `index.html`                      |
+| Elemento  | `<a href="...">Visitar sitio</a>` |
+| Etiqueta  | `<a>` / `</a>`                    |
+| Atributo  | `href`                            |
+| Valor     | `"https://example.com"`           |
+| Contenido | `Visitar sitio`                   |
 
 ---
 
@@ -499,3 +499,97 @@ Y especialmente recuerda esta diferencia:
 > **Contenido:** `Hola`
 
 Si entiendes esto, ya tienes una base conceptual bastante buena para pasar de **HTML → DOM → CSS → JavaScript**. 🚀
+
+## Leer más
+
+<details>
+<summary>¿De dónde viene el nombre?</summary>
+
+Cuando [Tim Berners-Lee](https://es.wikipedia.org/wiki/Tim_Berners-Lee) creó la Web, su objetivo era facilitar el intercambio de
+documentos científicos entre investigadores.
+La idea era que cada documento pudiera enlazar a otros mediante
+hipertexto (hypertext).
+
+Por eso:
+
+* existían documentos HTML,
+* almacenados en un servidor,
+* accesibles mediante una URL,
+* e interpretados por un navegador.
+
+La Web nació como una enorme colección de documentos interconectados.
+
+</details>
+
+<details>
+<summary>¿Por qué se le llama documento HTML?</summary>
+En informática, un documento es un archivo cuyo propósito principal es
+almacenar información estructurada para ser interpretada por un programa.
+
+| Tipo    | Programa que lo interpreta |
+|---------|----------------------------|
+| `.docx` | Microsoft Word             |
+| `.pdf`  | Un lector de PDF           |
+| `.xlsx` | Microsoft Excel            |
+| `.pptx` | Microsoft PowerPoint       |
+| `.html` | Un navegador web           |
+
+Desde este punto de vista, un archivo index.html es simplemente otro tipo
+de documento.
+
+</details>
+
+<details>
+<summary>¿Qué contiene un documento HTML?</summary>
+No contiene instrucciones para que el computador las ejecute (como un programa),
+sino una descripción de la estructura del contenido.
+
+Por ejemplo:
+
+```html
+<h1>Bienvenido</h1>
+    
+<p>Hola mundo.</p>
+```
+
+Aquí no estás diciendo:
+> "Ejecuta una función."
+
+Sino:
+> "Esto es un encabezado."
+> "Esto es un párrafo."
+
+El navegador interpreta esa descripción y la convierte en una página visible.
+
+</details>
+
+<details>
+<summary>¿Por qué no se llama programa HTML?</summary>
+Porque HTML no describe un algoritmo.
+
+Un programa le dice al computador:
+
+> Haz esto.
+> Después aquello.
+> Si ocurre esto, haz otra cosa.
+
+En cambio, HTML dice:
+
+> Este texto es un título.
+> Esto es un párrafo.
+> Aquí hay una imagen.
+> Aquí hay una tabla.
+
+Está describiendo un documento, no un proceso.
+</details>
+
+<details>
+<summary>¿Por qué a HTML se le llama lenguaje de marcado?</summary>
+
+Se llama lenguaje de marcado porque utiliza marcas (etiquetas) para describir
+la estructura y el significado del contenido de un documento. A diferencia de
+un lenguaje de programación, no contiene instrucciones que el computador deba
+ejecutar.
+
+</details>
+
